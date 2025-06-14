@@ -49,7 +49,7 @@ const About = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
             <div className="relative">
               <img
-                src="https://media.licdn.com/dms/image/v2/D4E03AQG9f-DW8jsgAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726342880610?e=1755129600&v=beta&t=2ZGRGE7IR6Q7_5MmAUNbYBoUh8L62Uzho-dv7J1mxwY"
+                src="/profile.JPG"
                 alt="Eugene Nunoo - Fullstack Web Developer"
                 className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-white shadow-2xl group-hover:scale-105 transition-transform duration-300"
               />
