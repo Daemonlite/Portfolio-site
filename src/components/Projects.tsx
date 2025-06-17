@@ -26,7 +26,7 @@ const Projects = () => {
       color: "from-green-500 to-teal-600"
     },
     {
-      title: "Property Managaement System",
+      title: "Property Management System",
       description: "A property management system built with Reactjs and Django. Includes user authentication, property management, and building management and tracking.",
       image: Property,
       technologies: ["React.js", "Django", "Postgresql", "WebSocket"],
@@ -50,7 +50,7 @@ const Projects = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl">
             {projects.map((project, index) => (
               <div
                 key={index}
