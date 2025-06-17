@@ -30,7 +30,7 @@ const Projects = () => {
       description: "A property management system built with Reactjs and Django. Includes user authentication, property management, and building management and tracking.",
       image: Property,
       technologies: ["React.js", "Django", "Postgresql", "WebSocket"],
-      liveUrl: "https://property.prostash.site/",
+      liveUrl: "https://property-managment-front.onrender.com/",
       githubUrl: "https://github.com/eugenenunn/property-management-system",
       icon: <Smartphone className="h-6 w-6" />,
       color: "from-orange-500 to-amber-600"
