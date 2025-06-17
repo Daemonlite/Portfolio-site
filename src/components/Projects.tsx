@@ -1,6 +1,7 @@
 import React from 'react';
 import { ExternalLink, Github, Zap, Shield, Smartphone } from 'lucide-react';
 import EcomImg from '../Screenshot 2025-06-14 130949.png';
+import Property from '../property-dash.png';
 
 const Projects = () => {
   const projects = [
@@ -23,6 +24,16 @@ const Projects = () => {
       githubUrl: "https://github.com/eugenenunn/task-management-api",
       icon: <Shield className="h-6 w-6" />,
       color: "from-green-500 to-teal-600"
+    },
+    {
+      title: "Property Managaement System",
+      description: "A property management system built with Reactjs and Django. Includes user authentication, property management, and building management and tracking.",
+      image: Property,
+      technologies: ["React.js", "Django", "Postgresql", "WebSocket"],
+      liveUrl: "https://property.prostash.site/",
+      githubUrl: "https://github.com/eugenenunn/property-management-system",
+      icon: <Smartphone className="h-6 w-6" />,
+      color: "from-orange-500 to-amber-600"
     },
   ];
 
